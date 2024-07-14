@@ -1,0 +1,111 @@
+body {
+    background-color: black;
+}
+
+.entete {
+    color: blueviolet;
+    font-family: fantasy;
+    font-style: italic;
+    font-size: 50px;
+
+}
+
+.heros {
+    background-image: url(image/plat\ delicieux.jpeg);
+    background-size: cover;
+    height: 600px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h1 {
+    color: rgb(234, 13, 238);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 80px;
+    font-style: italic;
+    text-shadow: 10px 10px 10px black;
+}
+
+/*
+.card-body{
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+section{
+    border: solid 3px blue;
+
+}
+.façade{
+    display: flex;
+    justify-content: space-around;
+}*/
+
+.info {
+
+    /* border: solid 5px yellowgreen;*/
+    width: 700px;
+    height: 500px;
+    display: flexbox;
+    color: darkorange;
+
+    /* justify-content: center;*/
+}
+
+h2 {
+    text-decoration: underline;
+    letter-spacing: 3px;
+    word-spacing: 1px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-style: italic;
+    color: darkorange;
+    /*  border: solid 1px;*/
+    margin: 0;
+    padding: 0;
+}
+
+.formu {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background-color: black;
+    color: aliceblue;
+    font-size: 15px;
+    text-align: center;
+    font-style: oblique;
+}
+
+footer div {
+    font-size: 10px;
+}
+
+.prix {
+    color: red;
+    font-family: Roboto;
+    font-style: italic;
+    font-size: 25px;
+}
+
+.description {
+    color: antiquewhite;
+    font-size: 20px;
+    text-align: justify;
+    font-style: oblique;
+    font-family: Roboto;
+}
+
+h5{
+    color: darkorange;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    text-decoration: underline;
+}
